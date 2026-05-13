@@ -1,0 +1,6 @@
+{
+  "name": "HCOA测试工具",
+  "description": "HCOA 测试系统：专业的串口通信、功能验证及压力负载测试套件。",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
