@@ -12,6 +12,7 @@ import { StressTest } from './screens/StressTest';
 import { StressTestDashboard } from './screens/StressTestDashboard';
 import { NetworkTopology } from './screens/NetworkTopology';
 import { TestReportDetails } from './screens/TestReportDetails';
+import { OtaTool } from './screens/OtaTool';
 
 export default function App() {
   const [nav, setNav] = useState<NavigationState>({
@@ -59,6 +60,8 @@ export default function App() {
         return <NetworkTopology onNavigate={navigate} />;
       case ScreenId.TEST_REPORT_DETAILS:
         return <TestReportDetails onNavigate={navigate} />;
+      case ScreenId.OTA_TOOL:
+        return <OtaTool onNavigate={navigate} />;
       default:
         return <ConnectionConfig onNavigate={navigate} />;
     }
